@@ -1,4 +1,39 @@
-h1{
-    color: blue
-
+nav{
+    position: sticky;
 }
+
+body{
+    background: #C7BBCE;
+}
+
+.hero img{
+    position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    height: 300px;
+    width: 200px;
+}
+
+header{
+    padding: 20px;
+    background-color: #651790;
+    color: white;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+
+/* As hex codes
+
+.color-primary-0 { color: #7A3F9B }	/* Main Primary color */
+.color-primary-1 { color: #C7BBCE }
+.color-primary-2 { color: #A57DBB }
+.color-primary-3 { color: #651790 }
+.color-primary-4 { color: #4C0573 }
+
