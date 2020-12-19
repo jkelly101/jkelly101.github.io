@@ -17,12 +17,14 @@
   <link href="css/business-frontpage.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <div id="name">Jen Kelly</div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -55,9 +57,9 @@
 
   <!-- Header -->
   <header>
-    <div class="container h-100" id="about">
+    <div class="container h-100">
       <div class="row h-100 align-items-center">
-        <div class="col-lg-12"> 
+        <div class="col-lg-12" id="about"> 
           <h1>Welcome to my Portfolio!</h1>
           <p>My name is Jen and I am a former Travel Agent turned coder. I'm a pitbull mom, a vegetarian,
             traveller and an avid reader. I'm thrilled to be learning to code since it's something I've always been interested in. Check back as I continue my journey and build my
@@ -70,13 +72,13 @@
   <!-- Page Content -->
   <div class="container">
 
-    <div class="row" id="contact">
+    <div class="row">
       <div class="col-md-8 mb-5">
-        <h2>What I Do</h2>
+        <h2 id="what-i-do">What I Do</h2>
         <hr>
         <p>I am currently enrolled in Rutger's Coding Bootcamp to learn how to become a Full Stack Developer. I am currently learning the basics of HTML, CSS and JavaScript with the help of our expert instructors. </p>
       </div>
-      <div class="col-md-4 mb-5">
+      <div class="col-md-4 mb-5"  id="contact">
         <h2>Contact Me</h2>
         <hr>
         <address>
@@ -115,7 +117,7 @@
       </div>
       <div class="col-md-4 mb-5">
         <div class="card h-100">
-          <img class="card-img-top" src="https://placehold.it/300x200" alt="">
+          <img class="card-img-top" src="/assets/images/starry-sky.jpeg" alt="">
           <div class="card-body">
             <h4 class="card-title">Coming Soon!</h4>
             <p class="card-text">Check back for more content soon!
@@ -124,7 +126,7 @@
       </div>
       <div class="col-md-4 mb-5">
         <div class="card h-100">
-          <img class="card-img-top" src="https://placehold.it/300x200" alt="">
+          <img class="card-img-top" src="/assets/images/starry-sky.jpeg" alt="">
           <div class="card-body">
             <h4 class="card-title">Coming Soon!</h4>
             <p class="card-text">Check back for more content soon!</p>
@@ -138,9 +140,15 @@
   <!-- /.container -->
 
   <!-- Footer -->
+
   <footer class="py-5 bg-dark">
+    <div class="social-media">
+      <a href="https://www.facebook.com/jen.kelly.585" target="_blank" class="fa fa-facebook"></a>
+      <a href="https://www.linkedin.com/in/jennifer-kelly-4aa612108/" target="_blank" class="fa fa-linkedin"></a>
+      <a href="https://github.com/jkelly101" target="_blank" class="fa fa-github"></a>
+    </div>
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Jennifer Kelly 2020</p>
+      <p class="m-0 text-right text-white">Copyright &copy; Jennifer Kelly 2020</p>
     </div>
     <!-- /.container -->
   </footer>

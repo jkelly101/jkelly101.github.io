@@ -1,8 +1,12 @@
-/* Nav Bar Styles */
+body{
+    background: #C7BBCE;
+}
+
+/* Navigation */
 
 nav{
     position: sticky;
-    background:#4C0573;
+    background:#4c0573;
 }
 
 
@@ -18,26 +22,67 @@ nav{
     height: 100%;
 }
 
-/* Main Section Styles */
-body{
-    background: #C7BBCE;
-}
-
-h2{
-    margin: 10px auto;
-}
-
-/* Portfolio Styles */
-img{
-    height: 300px;
-    width: 200px;
-}
+/* Header */
 
 header{
-    padding: 20px;
+    padding: 60px;
     background-color: #651790;
     color: white;
 }
+
+/* About */
+#what-i-do{
+    margin-top:40px;
+}
+
+/* Contact */
+#contact{
+    background:#A57DBB;
+    color: white;
+    border: white solid 2px;
+    margin-top: 40px;
+}   
+
+/* Portfolio */
+img{
+    height: 200px;
+    width: 200px;
+}
+
+/* Footer */
+.fa {
+    padding: 20px;
+    font-size: 0px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;}
+
+.fa-github {
+    background: #6cc644;
+    color: white;
+}
+    
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+#contact, #what-i-do, #about{
+    text-align: center;
+
+}
+
+    
+
 
 
 
