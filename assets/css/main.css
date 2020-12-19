@@ -9,7 +9,6 @@ nav{
     background:#4c0573;
 }
 
-
 #name{
     color: white;
     font-size: 20px;
@@ -28,10 +27,12 @@ header{
     padding: 60px;
     background-color: #651790;
     color: white;
+    text-align: center;
+    font-family: cursive;
 }
 
 /* About */
-#what-i-do{
+#about{
     margin-top:40px;
 }
 
@@ -41,6 +42,7 @@ header{
     color: white;
     border: white solid 2px;
     margin-top: 40px;
+    padding-top: 20px;
 }   
 
 /* Portfolio */
@@ -50,6 +52,10 @@ img{
 }
 
 /* Footer */
+footer{
+background: #4C0573;
+}
+
 .fa {
     padding: 20px;
     font-size: 0px;
@@ -71,6 +77,13 @@ img{
     background: #6cc644;
     color: white;
 }
+.social-media{
+    text-align: center;
+    margin-bottom: 10px;
+}
+    
+
+
     
 
 /* Media Queries */
