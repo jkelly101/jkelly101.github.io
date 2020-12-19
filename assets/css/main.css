@@ -1,9 +1,14 @@
+/* Nav Bar Styles */
+
 nav{
     position: sticky;
+    background:#4C0573;
 }
 
-body{
-    background: #C7BBCE;
+
+#name{
+    color: white;
+    font-size: 20px;
 }
 
 .hero img{
@@ -13,6 +18,16 @@ body{
     height: 100%;
 }
 
+/* Main Section Styles */
+body{
+    background: #C7BBCE;
+}
+
+h2{
+    margin: 10px auto;
+}
+
+/* Portfolio Styles */
 img{
     height: 300px;
     width: 200px;
@@ -24,9 +39,7 @@ header{
     color: white;
 }
 
-h2{
-    margin-top: 20px;
-}
+
 
 
 /* As hex codes
