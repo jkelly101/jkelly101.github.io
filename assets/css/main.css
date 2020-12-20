@@ -79,32 +79,10 @@ background: #4C0573;
 }
 .social-media{
     text-align: center;
-    margin-bottom: 10px;
-}
-    
-
-
-    
-
+    margin-bottom: 10px;}
 /* Media Queries */
 
 @media only screen and (max-width: 768px) {
 #contact, #what-i-do, #about{
-    text-align: center;
-
+    text-align: center;}
 }
-
-    
-
-
-
-
-
-/* As hex codes
-
-.color-primary-0 { color: #7A3F9B }	/* Main Primary color */
-.color-primary-1 { color: #C7BBCE }
-.color-primary-2 { color: #A57DBB }
-.color-primary-3 { color: #651790 }
-.color-primary-4 { color: #4C0573 }
-
