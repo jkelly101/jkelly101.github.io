@@ -15,7 +15,7 @@ Link to Portfolio: https://jkelly101.github.io/
 
 <img src= "/assets/images/screenshots/screenshot2.png">
 
-<img src= "/assets/images/screenshots/screenshot3.png>
+<img src= "/assets/images/screenshots/screenshot3.png">
 
 
 
