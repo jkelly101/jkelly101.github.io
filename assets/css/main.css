@@ -1,12 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&display=swap");
+
 body {
-  background: #c7bbce;
+  background: #1d2b64; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #283463,
+    #f8cdda
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #1d2b64,
+    #f8cdda
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding-top: 56px;
 }
 
 /* Navigation */
 
 nav {
   position: sticky;
-  background: #6e0573;
+  background: #1d2b64;
 }
 
 #name {
@@ -25,27 +39,41 @@ nav {
 
 header {
   padding: 60px;
-  background-color: #6e0573;
+  /* background-color: #6e0573; */
   color: white;
   text-align: center;
-  font-family: cursive;
+  font-family: Noto + Serif + JP;
 }
 
 /* About */
 #about {
-  margin-top: 40px;
+  margin-top: 60px;
+  border: white solid 2px;
+  border-radius: 5px;
+  background: #525668;
+  padding: 40px;
+}
+
+.about-me {
+  color: white;
 }
 
 /* Contact */
 #contact {
-  background: #b781bf;
+  background: #484e66;
   color: white;
   border: white solid 2px;
+  border-radius: 5px;
   margin-top: 40px;
   padding-top: 20px;
 }
 
 /* Portfolio */
+
+#portfolio {
+  padding: 40px;
+}
+
 img {
   height: 200px;
   width: 200px;
@@ -53,7 +81,7 @@ img {
 
 /* Footer */
 footer {
-  background: #6e0573;
+  /* background: #6e0573; */
 }
 
 .fa {

@@ -19,7 +19,7 @@ Link to Portfolio: https://jkelly101.github.io/
 
 ## Updates
 
-Recent updated include added projects, changes to color palette and project buttons.
+Recent updates include added projects, changes to color palette and project buttons.
 
 
 
